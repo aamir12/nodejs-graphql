@@ -1,0 +1,14 @@
+URL: http://localhost:8080/graphql
+Method: POST always
+Data: 
+{
+  "query": "{ hello { text views } }"
+}
+
+{
+  "query": "{ hello { text } }"
+}
+
+{
+  "query": "{ hello { views } }"
+}
